@@ -219,10 +219,11 @@ ul {
   border-radius: 4px;
 }
 
-.icon {
+/*.icon {
   display: flex;
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;
 }
+*/
 /*works*/
 
 .works {
