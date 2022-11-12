@@ -91,6 +91,18 @@ img {
   padding-bottom: 32px;
 }
 
+.header-icon {
+  display: flex;
+  outline: 1px solid red;
+  margin: auto 10px auto auto;
+}
+
+.header-icon-tel {
+  display: flex;
+  outline: 1px solid red;
+  margin: auto 10px auto 30px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -121,7 +133,7 @@ ul {
 }
 
 .link-item .item:last-child {
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .link-tel-email {
@@ -191,6 +203,22 @@ ul {
   margin-right: 0;
 }
 
+/*icon-details*/
+
+.icon-details {
+  display: block;
+  outline: 1px solid red;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: var(--color-secondary);
+  padding: 25px 102px;
+}
+
+.icon {
+  display: flex;
+  outline: 1px solid blue;
+}
 /*works*/
 
 .works {
