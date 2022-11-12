@@ -97,6 +97,9 @@ img {
   margin: auto 10px auto auto;
 }
 
+.icon-header:hover {
+  stroke: var(--color-inverted);
+}
 .header-icon-tel {
   display: flex;
   outline: 1px solid red;
