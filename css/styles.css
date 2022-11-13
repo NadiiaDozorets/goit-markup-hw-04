@@ -358,13 +358,17 @@ ul {
   justify-content: space-between;
   width: 270px;
   outline: 1px solid red;
-  padding: 10px 32px 20px 32px;
+  padding: 0px 32px 20px 32px;
 }
 
 .icon-comand {
   outline: 1px solid blue;
 }
 
+.icon-comand:hover {
+ stroke: var(--color-white);
+ color: var(--color-inverted);
+}
 /*footer*/
 
 .footer {
