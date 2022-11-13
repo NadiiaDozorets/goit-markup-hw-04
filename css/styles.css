@@ -97,9 +97,13 @@ img {
   margin: auto 10px auto auto;
 }
 
+.icon-header {
+  outline: 1px solid red;
+}
 .icon-header:hover {
   stroke: var(--color-inverted);
 }
+
 .header-icon-tel {
   display: flex;
   /*outline: 1px solid red;*/
@@ -371,20 +375,19 @@ ul {
 }
 
 .icon-comand:hover {
- stroke: var(--color-white);
- fill: var(--color-inverted);
+ background-color: var(--color-inverted);
+ fill: var(--color-white);
  border-radius: 50%;
 }
 
 
 /*icon-client*/
 
+
 .client {
  display: flex;
  justify-content: space-between;
  
- 
-
 }
 
 .icon-client:hover {
@@ -457,6 +460,22 @@ ul {
 .address-contact:focus {
   color: var(--color-inverted);
 }
+
+
+.title-footer {
+  margin-bottom: 10px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.social-footer {
+  display: inline-flex;
+}
+
 
 /* Button */
 .primary-button {
