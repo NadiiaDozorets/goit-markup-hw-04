@@ -394,11 +394,13 @@ ul {
 
 .block-client {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
-  background-color: #f5f4fa;
-  border: 1px;
-  outline: 1px solid red;
+  border:1px solid #AFB1B8;
+  border-radius: 4px;
+  /*outline: 1px solid red;*/
 }
 
 /*footer*/
