@@ -372,8 +372,8 @@ ul {
 
 .icon-comand:hover {
  stroke: var(--color-white);
- color: var(--color-inverted);
- border: 50% 50%;
+ fill: var(--color-inverted);
+ border-radius: 50%;
 }
 
 
@@ -387,10 +387,11 @@ ul {
 
 }
 
-.icon-client {
-  outline: 1px solid blue;
-
+.icon-client:hover {
+  fill: var(--color-inverted);
 }
+
+
 
 .block-client {
   display: flex;
@@ -401,6 +402,10 @@ ul {
   border:1px solid #AFB1B8;
   border-radius: 4px;
   /*outline: 1px solid red;*/
+}
+
+.block-client:hover {
+  border: var(--color-inverted);
 }
 
 /*footer*/
