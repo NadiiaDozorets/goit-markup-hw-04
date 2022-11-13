@@ -368,6 +368,7 @@ ul {
 .icon-comand:hover {
  stroke: var(--color-white);
  color: var(--color-inverted);
+ border: 50% 50%;
 }
 /*footer*/
 
