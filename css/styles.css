@@ -100,9 +100,9 @@ img {
 .icon-header {
   outline: 1px solid red;
 }
-.icon-header:hover {
+/*.icon-header:hover {
   stroke: var(--color-inverted);
-}
+}*/
 
 .header-icon-tel {
   display: flex;
@@ -390,9 +390,9 @@ ul {
  
 }
 
-.icon-client:hover {
+/*.icon-client:hover {
   fill: var(--color-inverted);
-}
+}*/
 
 
 
