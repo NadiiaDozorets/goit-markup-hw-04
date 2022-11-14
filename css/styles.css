@@ -392,6 +392,10 @@ ul {
  
 }
 
+.logo-company {
+  fill: rgba(175, 177, 184, 1);
+}
+
 .icon-client:hover {
   fill: var(--color-inverted);
 }
@@ -505,7 +509,7 @@ ul {
 }
 
 .icon-footer:hover {
- fill: var(--color-white);
+ fill: red;
  background: var(--color-inverted);
  border-radius: 50%;
 }
