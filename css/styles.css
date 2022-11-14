@@ -100,9 +100,9 @@ img {
 /*.icon-header {
   outline: 1px solid red;
 }*/
-/*.icon-header:hover {
+.icon-header:hover {
   stroke: var(--color-inverted);
-}*/
+}
 
 .header-icon-tel {
   display: flex;
@@ -350,7 +350,7 @@ ul {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right), rgba(47, 48, 58), rgba(47, 48, 58, 0.4); url('../images/people.jpg');
+  background-image: /*linear-gradient(to right), rgba(47, 48, 58), rgba(47, 48, 58, 0.4);*/ url('../images/people.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -375,6 +375,7 @@ ul {
 }*/
 
 .icon-comand:hover {
+ fill: var(--color-white);
   
  background-color: var(--color-inverted);
  border-radius: 50%;
