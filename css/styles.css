@@ -97,9 +97,9 @@ img {
   margin: auto 10px auto auto;
 }
 
-.icon-header {
+/*.icon-header {
   outline: 1px solid red;
-}
+}*/
 /*.icon-header:hover {
   stroke: var(--color-inverted);
 }*/
@@ -366,13 +366,13 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 270px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   padding: 0px 32px 20px 32px;
 }
 
-.icon-comand {
+/*.icon-comand {
   outline: 1px solid blue;
-}
+}*/
 
 .icon-comand:hover {
   
@@ -485,7 +485,7 @@ ul {
 .footer-social {
   display: flex;
   justify-content: flex-start;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 
 }
 
@@ -493,7 +493,7 @@ ul {
 
 .icon-footer {
   margin-right: 10px;
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
 }
 
 .icon-footer:hover {
