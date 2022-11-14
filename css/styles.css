@@ -464,7 +464,7 @@ ul {
 
 
 .title-footer {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--color-white);
   text-transform: uppercase;
   font-size: 14px;
@@ -480,8 +480,28 @@ ul {
 .social-footer {
   margin-left: 70px;
   
-  
 }
+
+.footer-social {
+  display: flex;
+  justify-content: flex-start;
+  outline: 1px solid red;
+
+}
+
+/*icon-footer*/
+
+.icon-footer {
+  margin-right: 10px;
+  outline: 1px solid blue;
+}
+
+.icon-footer:hover {
+  
+ background-color: var(--color-inverted);
+ border-radius: 50%;
+}
+
 
 
 /* Button */
