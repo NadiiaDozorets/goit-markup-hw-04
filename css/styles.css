@@ -390,9 +390,9 @@ ul {
  
 }
 
-/*.icon-client:hover {
+.icon-client:hover {
   fill: var(--color-inverted);
-}*/
+}
 
 
 
@@ -408,7 +408,7 @@ ul {
 }
 
 .block-client:hover {
-  border: var(--color-inverted);
+  border: 1px solid var(--color-inverted);
 }
 
 /*footer*/
