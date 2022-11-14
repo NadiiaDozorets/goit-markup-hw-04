@@ -370,12 +370,9 @@ ul {
   padding: 0px 32px 20px 32px;
 }
 
-.icon-comand {
-  fill: rgba(175, 177, 184, 1);
- 
-  background: var(--color-white) ;
+/*.icon-comand {
   outline: 1px solid blue;
-}
+}*/
 
 .icon-comand:hover {
  fill: rgba(255, 255, 255, 1);
