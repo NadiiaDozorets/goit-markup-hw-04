@@ -365,24 +365,37 @@ ul {
 .icon-social {
   display: flex;
   justify-content: space-between;
-  width: 270px;
   /*outline: 1px solid red;*/
   padding: 0px 32px 20px 32px;
 }
 
-.icon-comand {
-  fill: rgba(175, 177, 184, 1);
- 
+.comand {
+  width: 44px;
+  height: 44px;
+}
 
+.link-comand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.link-comand:hover {
+ background-color: var(--color-inverted);
+ border-radius: 50%;
+  
+}
+
+.icon-comand {
+  fill: currentColor;
   /*outline: 1px solid blue;*/
 }
 
+
 .icon-comand:hover {
  fill: rgba(255, 255, 255, 1);
-;
-  
- background-color: var(--color-inverted);
- border-radius: 50%;
 }
 
 
@@ -397,6 +410,11 @@ ul {
 
 .logo-company {
   fill: rgba(175, 177, 184, 1);
+}
+
+
+.icon-client {
+  fill: currentColor;
 }
 
 .icon-client:hover {
@@ -500,22 +518,39 @@ ul {
 
 /*icon-footer*/
 
-.icon-footer {
-  background: rgba(255, 255, 255, 0.1);
-
+.li-footer {
   margin-right: 10px;
-  /*outline: 1px solid blue;*/
+  width: 44px;
+  height: 44px;
 }
 
-.icon-footer:last-child {
-  margin-right: 0;
-}
 
-.icon-footer:hover {
+.li-footer:last-child {
+  margin-right: 0px;
  
- background: var(--color-inverted);
+}
+
+
+.link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.link-footer:hover {
+ background-color: var(--color-inverted);
  border-radius: 50%;
 }
+
+
+.icon-footer {
+ fill: var(--color-white);
+}
+
 
 
 
