@@ -370,9 +370,12 @@ ul {
   padding: 0px 32px 20px 32px;
 }
 
-/*.icon-comand {
-  outline: 1px solid blue;
-}*/
+.icon-comand {
+  fill: rgba(175, 177, 184, 1);
+ 
+
+  /*outline: 1px solid blue;*/
+}
 
 .icon-comand:hover {
  fill: rgba(255, 255, 255, 1);
@@ -499,7 +502,7 @@ ul {
 
 .icon-footer {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+
   margin-right: 10px;
   /*outline: 1px solid blue;*/
 }
@@ -509,7 +512,7 @@ ul {
 }
 
 .icon-footer:hover {
- fill: red;
+ 
  background: var(--color-inverted);
  border-radius: 50%;
 }
