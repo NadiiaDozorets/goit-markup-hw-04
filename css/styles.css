@@ -100,8 +100,9 @@ img {
   margin-right: 10px;
 }
 
-.icon-header:hover {
-  stroke: var(--color-inverted);
+.icon-header:hover,
+.icon-header:focus {
+  fill: currentColor;
 }
 
 .header-icon-tel {
@@ -155,15 +156,12 @@ ul {
   /*outline: 1px solid red;*/
 }
 
-.link-tel-email:hover {
-  color: var(--color-inverted);
-}
-
+.link-tel-email:hover,
 .link-tel-email:focus {
   color: var(--color-inverted);
 }
 
-.visually-hidden {
+.link-tel-email:focus .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
