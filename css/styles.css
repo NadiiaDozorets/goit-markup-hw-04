@@ -54,10 +54,14 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo-studio-header {
-  color: var(--color-text);
+.logo-header {
+  padding: 24px 0px 0px 0px;
   margin-bottom: 25px;
   margin-right: 93px;
+}
+
+.logo-studio-header {
+  color: var(--color-text);
 }
 
 .logo-footer-studio {
@@ -92,18 +96,13 @@ img {
   padding-bottom: 32px;
 }
 
-
 .icon-header {
   margin-right: 10px;
 }
 
 .icon-header:hover {
-  
   stroke: var(--color-inverted);
 }
-
-
-
 
 .header-icon-tel {
   display: flex;
@@ -145,7 +144,6 @@ ul {
 }
 
 .link-tel-email {
-  
   margin-right: 30px;
   color: var(--color-brand);
   font-size: 14px;
@@ -153,10 +151,9 @@ ul {
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0.02em;
+
   /*outline: 1px solid red;*/
 }
-
-
 
 .link-tel-email:hover {
   color: var(--color-inverted);
@@ -218,8 +215,10 @@ ul {
 /*icon-details*/
 
 .icon-details {
-  display: block;
- /* outline: 1px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* outline: 1px solid red;*/
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -227,7 +226,6 @@ ul {
   padding: 25px 102px;
   border-radius: 4px;
 }
-
 
 /*works*/
 
@@ -259,8 +257,9 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
-  letter-spacing: 0.03em;section
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .title-img-two {
@@ -305,7 +304,6 @@ ul {
 
 .foto {
   display: block;
-  padding: 30px 30px 16px 30px;
   text-align: center;
 }
 
@@ -333,6 +331,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
 .about-portfolio {
@@ -355,7 +354,8 @@ ul {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/people.jpg');
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/people.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -386,38 +386,29 @@ ul {
   width: 100%;
   height: 100%;
   color: rgba(175, 177, 184, 1);
-
-  
 }
 
 .link-comand:focus,
-.link-comand:hover  {
- background-color: var(--color-inverted);
- border-radius: 50%;
- color: var(--color-white);
+.link-comand:hover {
+  background-color: var(--color-inverted);
+  border-radius: 50%;
+  color: var(--color-white);
 }
 
 .icon-comand {
-fill: currentColor;
+  fill: currentColor;
 }
-
 
 /*icon-client*/
 
-
 .client {
- display: flex;
- justify-content: space-between;
- 
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo-company {
   fill: rgba(175, 177, 184, 1);
 }
-
-
-
-
 
 .link-client {
   display: flex;
@@ -425,19 +416,16 @@ fill: currentColor;
   align-items: center;
   width: 170px;
   height: 92px;
-  border:1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   color: rgba(175, 177, 184, 1);
-
 }
-
 
 .link-client:hover,
 .link-client:focus {
   border: 1px solid var(--color-inverted);
   color: var(--color-inverted);
 }
-
 
 .icon-client {
   fill: currentColor;
@@ -446,7 +434,6 @@ fill: currentColor;
 .icon-client:hover {
   fill: var(--color-inverted);
 }
-
 
 /*footer*/
 
@@ -499,7 +486,6 @@ fill: currentColor;
   color: var(--color-inverted);
 }
 
-
 .title-footer {
   margin-bottom: 20px;
   color: var(--color-white);
@@ -516,14 +502,12 @@ fill: currentColor;
 }
 .social-footer {
   margin-left: 70px;
-  
 }
 
 .footer-social {
   display: flex;
   justify-content: flex-start;
   /*outline: 1px solid red;*/
-
 }
 
 /*icon-footer*/
@@ -534,12 +518,9 @@ fill: currentColor;
   height: 44px;
 }
 
-
 .li-footer:last-child {
   margin-right: 0px;
- 
 }
-
 
 .link-footer {
   display: flex;
@@ -554,17 +535,13 @@ fill: currentColor;
 
 .link-footer:hover,
 .link-footer:focus {
- background-color: var(--color-inverted);
- border-radius: 50%;
+  background-color: var(--color-inverted);
+  border-radius: 50%;
 }
-
 
 .icon-footer {
- fill: currentColor;
+  fill: currentColor;
 }
-
-
-
 
 /* Button */
 .primary-button {
@@ -665,11 +642,10 @@ fill: currentColor;
 }
 
 .link-card {
- 
   text-decoration: none;
 }
 
 .card-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
