@@ -156,9 +156,14 @@ ul {
   /*outline: 1px solid red;*/
 }
 
-.link-tel-email:hover,
+.link-tel-email:hover {
+  color: var(--color-inverted);
+  fill: var(--color-inverted);
+}
+
 .link-tel-email:focus {
   color: var(--color-inverted);
+  fill: var(--color-inverted);
 }
 
 .link-tel-email:focus .visually-hidden {
